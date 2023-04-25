@@ -1,0 +1,199 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond&family=Dancing+Script:wght@600&family=Montserrat:ital,wght@1,300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+    background-color: #24252A  ;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    color: black;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    z-index:1;
+    opacity: 0.5; 
+}
+
+
+.flex-container {
+  
+    display: grid;
+    justify-content: 25%,25%,25%;
+      }
+  
+  
+.whoweare{
+    background-color:bisque;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+ 
+}
+
+
+.ourmission{
+    background-color: darkolivegreen;
+    margin: 20px;
+    padding: 20px;
+    color:bisque;
+  
+
+}
+
+
+.ourvision{
+    background-color:bisque;
+    margin: 20px;
+    padding: 20px;
+    color:black;
+}
+
+
+p{
+    padding:50px;
+   
+ 
+    font-family: "Montserrat", Helvetica, sans-serif, sans-serif;
+    font-weight: 500;
+ 
+    display: column;
+}
+
+   
+ul{
+    background-color:#24252A ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#BF360C;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+#image2{
+    position: relative;
+    display: inline;
+    align-items: justify;
+    float: right;
+    border-style:solid;
+    padding:6px;
+    border-width:6px;
+    border-color:#24252A ;
+  
+    }
+
+#image{
+    
+    position:relative;
+    display: inline; 
+    align-items: justify;
+    float:right;
+    border-style:solid;
+    padding:6px;
+    border-width:6px;
+    border-color:#24252A ;  
+;
+  
+   
+}
+#image3{
+    position:relative;
+     display: inline;
+     align-items: justify;
+     float: left;
+    border-style:solid;
+    padding:6px;
+    margin:10px;
+    margin-right: 10px;
+    border-width:10px;
+    border-color:#BF360C;  
+}
+
+.logo{
+    position: relative;
+ 
+    border-style: solid;
+   
+}
+
+li,a,button{
+    font-family: "Aboreto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color: #edf0f1;
+   text-decoration: none;
+  
+  
+}
+
+header{
+     display: table-column;
+     position: absolute;
+     top:10%;
+
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+    background-color: #24252A;
+
+    border-style:inherit;
+   
+}
+
+.logo{
+   cursor: pointer;
+
+  
+  
+}
+
+.navlinks{
+   list-style: none;
+
+
+}
+
+.navlinks li{
+   display:inline-block;
+   padding:0px 20px;
+
+}
+
+.navlinks li a:hover{
+   color: orangered;
+
+ 
+}
+
+button{
+   padding:9px 25px;
+   background-color:orangered;
+
+   border:none;
+   border-radius:50px;
+   cursor:pointer;
+   position: absolute;
+   right: 10%;
+   top:6%
+ 
+
+
+}
+
+button:hover{
+   background-color:orangered;
+   z-index:1;
+ 
+}
+
+
+ 
+
+
